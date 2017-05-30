@@ -1,0 +1,31 @@
+O20001;
+T3 M06; (replace with appropriate tool)
+F20; (appropriate feed)
+G01 G54 X0. Y0. A0.;
+G91;
+X0.5 Y0.5;
+M97 P400 L5;
+A0.0;
+X0.2;
+M97 P400 L5;
+A0.0;
+X.02;
+M97 P400 L5;
+A0.0;
+M97 P600;
+A88.0;
+M97 P600;
+M02;
+
+N400; (grips)
+Z-0.001;
+Y-1.;
+Z-0.001;
+Y1.;
+Z0.002;
+A72.;
+M99;
+
+N600; (radius)
+
+
