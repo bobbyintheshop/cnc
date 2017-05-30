@@ -1,4 +1,3 @@
-%
 O20001;
 T3 M06; (replace with appropriate tool)
 F20; (appropriate feed)
@@ -29,6 +28,5 @@ M99;
 
 N600; (radius)
 
-%
 
 
